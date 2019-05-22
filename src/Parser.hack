@@ -1,0 +1,5 @@
+namespace Hackbf;
+
+class Parser {
+
+}

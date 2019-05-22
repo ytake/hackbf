@@ -1,0 +1,35 @@
+{
+  "name": "ytake/hackbf",
+  "description": "",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuuki Takezawa",
+      "email": "yuuki.takezawa@comnect.jp.net"
+    }
+  ],
+  "require": {
+    "hhvm": "^4.6",
+    "hhvm/hsl": "^4.5",
+    "hhvm/hsl-experimental": "^4.5",
+    "hhvm/hhvm-autoload": "^2.0.6"
+  },
+  "require-dev": {
+    "hhvm/hacktest": "^1.5",
+    "facebook/fbexpect": "^2.5.6",
+    "hhvm/hhast": "^4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hackbf\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hackbf\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
